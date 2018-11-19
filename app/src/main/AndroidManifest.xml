@@ -27,6 +27,14 @@
         <activity
             android:name=".MyCommands"
             android:label="@string/title_activity_my_commands"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddNewCommand"
+            android:label="@string/title_activity_add_new_command"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OldNewCommand"
+            android:label="@string/title_activity_old_new_command"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

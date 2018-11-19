@@ -2,4 +2,6 @@
     <string name="app_name">FlexiVoice</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_my_commands">MyCommands</string>
+    <string name="title_activity_add_new_command">AddNewCommand</string>
+    <string name="title_activity_old_new_command">OldNewCommand</string>
 </resources>

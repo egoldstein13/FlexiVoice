@@ -5,5 +5,8 @@
         android:bottomLeftRadius="180dip"
         android:topRightRadius="180dip"
         android:topLeftRadius="180dip"/>
+    <stroke
+        android:width="4dp"
+        android:color="#000000" />
     <solid android:color="?attr/colorPrimaryDark"/>
 </shape>
