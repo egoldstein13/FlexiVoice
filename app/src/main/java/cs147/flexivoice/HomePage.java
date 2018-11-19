@@ -1,5 +1,6 @@
 package cs147.flexivoice;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -8,6 +9,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
 
 public class HomePage extends AppCompatActivity {
 
@@ -17,6 +19,7 @@ public class HomePage extends AppCompatActivity {
         setContentView(R.layout.activity_home_page);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle(null);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -26,6 +29,18 @@ public class HomePage extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+        Button myCommands = (Button) findViewById(R.id.button2);
+        myCommands.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(HomePage.this, MyCommands.class);
+                startActivity(intent);
+
+            }
+        });
+
+
     }
 
     @Override

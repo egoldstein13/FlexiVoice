@@ -6,5 +6,5 @@
         android:topRightRadius="180dip"
         android:topLeftRadius="180dip"/>
 
-    <solid android:color="#009DDB"/>
+    <solid android:color="?attr/colorPrimaryDark"/>
 </shape>

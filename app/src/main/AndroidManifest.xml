@@ -19,9 +19,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".MyCommands"
+            android:label="@string/title_activity_my_commands"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
