@@ -40,6 +40,17 @@ public class HomePage extends AppCompatActivity {
             }
         });
 
+        Button shareDevices = (Button) findViewById(R.id.button4);
+        shareDevices.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(HomePage.this, ShareMyDevices.class);
+                startActivity(intent);
+
+            }
+        });
+
 
     }
 

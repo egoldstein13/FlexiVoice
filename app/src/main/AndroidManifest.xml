@@ -35,6 +35,14 @@
         <activity
             android:name=".OldNewCommand"
             android:label="@string/title_activity_old_new_command"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ShareMyDevices"
+            android:label="@string/title_activity_share_my_devices"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ShareAlexaDevices"
+            android:label="@string/title_activity_share_alexa_devices"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
