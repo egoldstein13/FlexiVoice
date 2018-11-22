@@ -43,6 +43,22 @@
         <activity
             android:name=".ShareAlexaDevices"
             android:label="@string/title_activity_share_alexa_devices"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MyHistory"
+            android:label="@string/title_activity_my_history"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MyRecipeHistory"
+            android:label="@string/title_activity_my_recipe_history"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FishTacos"
+            android:label="@string/title_activity_fish_tacos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Ingredients"
+            android:label="@string/title_activity_ingredients"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

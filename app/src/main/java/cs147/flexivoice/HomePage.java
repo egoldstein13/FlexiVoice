@@ -51,6 +51,17 @@ public class HomePage extends AppCompatActivity {
             }
         });
 
+        Button usageHistory = (Button) findViewById(R.id.button3);
+        usageHistory.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(HomePage.this, MyHistory.class);
+                startActivity(intent);
+
+            }
+        });
+
 
     }
 

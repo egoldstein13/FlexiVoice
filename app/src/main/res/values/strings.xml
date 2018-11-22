@@ -6,4 +6,8 @@
     <string name="title_activity_old_new_command">OldNewCommand</string>
     <string name="title_activity_share_my_devices">ShareMyDevices</string>
     <string name="title_activity_share_alexa_devices">ShareAlexaDevices</string>
+    <string name="title_activity_my_history">MyHistory</string>
+    <string name="title_activity_my_recipe_history">MyRecipeHistory</string>
+    <string name="title_activity_fish_tacos">FishTacos</string>
+    <string name="title_activity_ingredients">Ingredients</string>
 </resources>
