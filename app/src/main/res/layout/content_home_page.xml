@@ -15,7 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="56dp"
+        android:layout_marginEnd="72dp"
         android:layout_marginBottom="8dp"
         android:fontFamily="@font/viga"
         android:text="My Commands"
@@ -33,7 +33,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:background="@drawable/roundedbutton"
+        android:background="@drawable/roundedbuttonshare"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.618"
@@ -48,7 +48,7 @@
         android:layout_marginStart="68dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="5dp"
-        android:background="@drawable/roundedbutton"
+        android:background="@drawable/roundedbuttonhistory"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button"
@@ -61,7 +61,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="132dp"
         android:layout_marginEnd="8dp"
-        android:background="@drawable/roundedbutton"
+        android:background="@drawable/roundedbuttoncommands"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.618"
         app:layout_constraintStart_toEndOf="@+id/button"
@@ -73,7 +73,7 @@
         android:layout_height="70dp"
         android:layout_marginStart="68dp"
         android:layout_marginTop="132dp"
-        android:background="@drawable/roundedbutton"
+        android:background="@drawable/roundedbuttondevices"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -182,7 +182,7 @@
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="225dp"
+        android:layout_width="289dp"
         android:layout_height="50dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
@@ -191,12 +191,32 @@
         android:background="#009DDB"
         android:fontFamily="@font/viga"
         android:text="GET A USAGE RECOMMENDATION"
-        android:textColor="#ffffff"
+        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView7"
         app:layout_constraintVertical_bias="1.0" />
+
+    <ImageButton
+        android:id="@+id/home"
+        android:layout_width="288dp"
+        android:layout_height="124dp"
+        android:layout_gravity="right"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/usage"
+        android:cropToPadding="false"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.87" />
+
 
 </android.support.constraint.ConstraintLayout>

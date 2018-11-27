@@ -9,6 +9,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -46,7 +47,22 @@ public class ShareAlexaDevices extends AppCompatActivity {
         final Button x2 = (Button) findViewById(R.id.button12);
         final TextView text4 = (TextView) findViewById(R.id.textView26);
         final Button ok = (Button) findViewById(R.id.button14);
+        ImageButton back = (ImageButton) findViewById(R.id.backbutton);
+        final ImageButton textI = (ImageButton) findViewById(R.id.text);
+        final ImageButton emailI = (ImageButton) findViewById(R.id.email);
+        final ImageButton airdropI = (ImageButton) findViewById(R.id.airdrop);
+        final ImageButton otherI = (ImageButton) findViewById(R.id.other);
+        final ImageButton messengerI = (ImageButton) findViewById(R.id.messenger);
+        final ImageButton search = (ImageButton) findViewById(R.id.search);
 
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(ShareAlexaDevices.this, ShareMyDevices.class);
+                startActivity(intent);
+
+            }
+        });
 
         sharePersonalizedCommands.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -65,6 +81,17 @@ public class ShareAlexaDevices extends AppCompatActivity {
                 text.setVisibility(View.VISIBLE);
                 text.bringToFront();
                 x.setVisibility(View.VISIBLE);
+                emailI.setVisibility(View.VISIBLE);
+                airdropI.setVisibility(View.VISIBLE);
+                otherI.setVisibility(View.VISIBLE);
+                messengerI.setVisibility(View.VISIBLE);
+                textI.setVisibility(View.VISIBLE);
+                emailI.bringToFront();
+                airdropI.bringToFront();
+                otherI.bringToFront();
+                messengerI.bringToFront();
+                textI.bringToFront();
+
                 x.bringToFront();
                 x.setOnClickListener(new View.OnClickListener() {
                     @Override
@@ -75,6 +102,11 @@ public class ShareAlexaDevices extends AppCompatActivity {
                         other.setVisibility(View.INVISIBLE);
                         text.setVisibility(View.INVISIBLE);
                         x.setVisibility(View.INVISIBLE);
+                        emailI.setVisibility(View.INVISIBLE);
+                        airdropI.setVisibility(View.INVISIBLE);
+                        otherI.setVisibility(View.INVISIBLE);
+                        messengerI.setVisibility(View.INVISIBLE);
+                        textI.setVisibility(View.INVISIBLE);
                         layout.addView(sharePreinstalledCommands);
                     }
                 });
@@ -82,6 +114,11 @@ public class ShareAlexaDevices extends AppCompatActivity {
                 text.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
+                        emailI.setVisibility(View.INVISIBLE);
+                        airdropI.setVisibility(View.INVISIBLE);
+                        otherI.setVisibility(View.INVISIBLE);
+                        messengerI.setVisibility(View.INVISIBLE);
+                        textI.setVisibility(View.INVISIBLE);
                         airDrop.setVisibility(View.INVISIBLE);
                         email.setVisibility(View.INVISIBLE);
                         messenger.setVisibility(View.INVISIBLE);
@@ -89,6 +126,7 @@ public class ShareAlexaDevices extends AppCompatActivity {
                         text.setVisibility(View.INVISIBLE);
                         x.setVisibility(View.INVISIBLE);
 
+                        search.setVisibility(View.VISIBLE);
                         text1.setVisibility(View.VISIBLE);
                         text2.setVisibility(View.VISIBLE);
                         text3.setVisibility(View.VISIBLE);
@@ -97,10 +135,12 @@ public class ShareAlexaDevices extends AppCompatActivity {
                         x2.setOnClickListener(new View.OnClickListener() {
                             @Override
                             public void onClick(View view) {
+                                search.setVisibility(View.INVISIBLE);
                                 text1.setVisibility(View.INVISIBLE);
                                 text2.setVisibility(View.INVISIBLE);
                                 text3.setVisibility(View.INVISIBLE);
                                 text4.setVisibility(View.INVISIBLE);
+                                ok.setVisibility(View.INVISIBLE);
                                 x2.setVisibility(View.INVISIBLE);
                                 text1.setText("CHOOSE CONTACT");
                                 layout.addView(sharePreinstalledCommands);
@@ -111,6 +151,7 @@ public class ShareAlexaDevices extends AppCompatActivity {
                             @Override
                             public void onClick(View view) {
                                 text1.setText("Send Command to\nRachel J.?");
+                                search.setVisibility(View.INVISIBLE);
                                 text2.setVisibility(View.INVISIBLE);
                                 text3.setVisibility(View.INVISIBLE);
                                 ok.setVisibility(View.VISIBLE);

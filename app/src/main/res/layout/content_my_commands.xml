@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".MyCommands"
+    android:background="#ffffff"
     tools:showIn="@layout/activity_my_commands">
 
     <Button
@@ -24,10 +25,10 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintHorizontal_bias="0.578"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/size2"
-        app:layout_constraintVertical_bias="0.005" />
+        app:layout_constraintVertical_bias="0.003" />
 
     <TextView
         android:id="@+id/textView10"
@@ -41,10 +42,10 @@
         android:textColor="#000000"
         app:layout_constraintBottom_toTopOf="@+id/view4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.153"
+        app:layout_constraintHorizontal_bias="0.104"
         app:layout_constraintStart_toStartOf="@+id/size4"
         app:layout_constraintTop_toTopOf="@+id/size4"
-        app:layout_constraintVertical_bias="0.906" />
+        app:layout_constraintVertical_bias="0.9" />
 
     <Button
         android:id="@+id/size3"
@@ -79,15 +80,15 @@
         android:textColor="#000000"
         app:layout_constraintBottom_toTopOf="@+id/size4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.091"
+        app:layout_constraintHorizontal_bias="0.122"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view"
-        app:layout_constraintVertical_bias="0.787" />
+        app:layout_constraintVertical_bias="0.792" />
 
     <View
         android:id="@+id/view3"
         style="@style/Divider"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="84dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -144,7 +145,7 @@
 
     <Button
         android:id="@+id/size2"
-        android:layout_width="383dp"
+        android:layout_width="401dp"
         android:layout_height="63dp"
         android:layout_marginEnd="8dp"
         android:background="@android:color/transparent"
@@ -178,7 +179,63 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view3"
-        app:layout_constraintVertical_bias="0.261" />
+        app:layout_constraintVertical_bias="0.221" />
 
+    <ImageButton
+        android:id="@+id/alexa1"
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/alexa"
+        android:cropToPadding="false"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.947"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.143" />
+
+    <ImageButton
+        android:id="@+id/alexa2"
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/alexa"
+        android:cropToPadding="false"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.947"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.299" />
+
+    <ImageButton
+        android:id="@+id/home"
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/googlehome"
+        android:cropToPadding="false"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.947"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.448" />
 
 </android.support.constraint.ConstraintLayout>

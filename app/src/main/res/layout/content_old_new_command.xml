@@ -16,28 +16,29 @@
         android:visibility="gone"
         android:spinnerMode="dialog"
         />
+
     <TextView
         android:id="@+id/textView14"
-        android:layout_width="321dp"
-        android:layout_height="33dp"
+        android:layout_width="333dp"
+        android:layout_height="35dp"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="320dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="212dp"
         android:background="#000000"
         android:clickable="true"
         android:fontFamily="@font/viga"
         android:gravity="center_vertical|center_horizontal"
         android:text="NEW COMMAND"
         android:textColor="#ffffff"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.404"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.358"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView15"
-        android:layout_width="319dp"
-        android:layout_height="122dp"
+        android:layout_width="331dp"
+        android:layout_height="134dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
@@ -48,14 +49,14 @@
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintHorizontal_bias="0.394"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView14"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/addcommand"
-        android:layout_width="383dp"
+        android:layout_width="419dp"
         android:layout_height="63dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="1dp"
@@ -84,7 +85,7 @@
 
     <TextView
         android:id="@+id/textView12"
-        android:layout_width="321dp"
+        android:layout_width="326dp"
         android:layout_height="33dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="104dp"
@@ -97,15 +98,15 @@
         android:textColor="#ffffff"
         app:layout_constraintBottom_toTopOf="@+id/view3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.404"
+        app:layout_constraintHorizontal_bias="0.405"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.233" />
+        app:layout_constraintVertical_bias="0.051" />
 
     <TextView
         android:id="@+id/textView13"
-        android:layout_width="319dp"
-        android:layout_height="122dp"
+        android:layout_width="325dp"
+        android:layout_height="143dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
@@ -115,10 +116,10 @@
         android:textSize="20dp"
         app:layout_constraintBottom_toTopOf="@+id/textView14"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintHorizontal_bias="0.452"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView12"
-        app:layout_constraintVertical_bias="0.222" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/button7"

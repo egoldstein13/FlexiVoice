@@ -20,7 +20,7 @@
         android:fontFamily="@font/viga"
         android:paddingLeft="20dp"
         android:paddingTop="20dp"
-        android:text="3 tbsp\t\t\t\t\tolive oil\n1\t\t\t\t\t\t\t\t\tlime\n2 tsp\t\t\t\t\t\tchili powder\n1/2 tsp\t\t\t\tcayenne pepper\n1/2 lb\t\t\t\t\twhite cod\n1\2 tbsp\t\t\t\tvegetable oil\npinch of\t\t\tKosher salt\npinch of\t\t\tpepper\n8\t\t\t\t\t\t\t\tcorn tortillaas\n1\t\t\t\t\t\t\t\t\tavocado"
+        android:text="3 tbsp\t\t\t\t\tolive oil\n1\t\t\t\t\t\t\t\t\t\tlime\n2 tsp\t\t\t\t\t\tchili powder\n1/2 tsp\t\t\t\tcayenne pepper\n1/2 lb\t\t\t\t\t\twhite cod\n1\2 tbsp\t\t\t\tvegetable oil\npinch of\t\t\tKosher salt\npinch of\t\t\tpepper\n8\t\t\t\t\t\t\t\t\t\tcorn tortillas\n1\t\t\t\t\t\t\t\t\t\tavocado"
         android:textAlignment="textStart"
         android:textAllCaps="false"
         android:textColor="#000000"
@@ -34,8 +34,8 @@
 
     <Button
         android:id="@+id/size2"
-        android:layout_width="410dp"
-        android:layout_height="63dp"
+        android:layout_width="425dp"
+        android:layout_height="58dp"
         android:layout_marginEnd="8dp"
         android:background="#000000"
         android:fontFamily="@font/viga"
@@ -74,10 +74,10 @@
 
     <TextView
         android:id="@+id/size5"
-        android:layout_width="392dp"
-        android:layout_height="42dp"
+        android:layout_width="413dp"
+        android:layout_height="50dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="56dp"
         android:layout_marginEnd="8dp"
         android:background="#BCBEC0"
         android:fontFamily="@font/viga"
@@ -89,7 +89,7 @@
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="@+id/view2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.625"
+        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.333" />

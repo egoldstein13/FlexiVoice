@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class Ingredients extends AppCompatActivity {
 
@@ -33,6 +34,15 @@ public class Ingredients extends AppCompatActivity {
             public void onClick(View view) {
 
                 Intent intent = new Intent(Ingredients.this, HomePage.class);
+                startActivity(intent);
+
+            }
+        });
+        ImageButton back = (ImageButton) findViewById(R.id.backbutton);
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Ingredients.this, FishTacos.class);
                 startActivity(intent);
 
             }

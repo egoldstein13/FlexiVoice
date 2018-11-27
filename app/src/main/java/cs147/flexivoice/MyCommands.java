@@ -13,6 +13,7 @@ import android.text.style.StyleSpan;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Spinner;
 import android.widget.TextView;
 
@@ -43,6 +44,15 @@ public class MyCommands extends AppCompatActivity {
             public void onClick(View view) {
 
                 Intent intent = new Intent(MyCommands.this, AddNewCommand.class);
+                startActivity(intent);
+
+            }
+        });
+        ImageButton back = (ImageButton) findViewById(R.id.backbutton);
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MyCommands.this, HomePage.class);
                 startActivity(intent);
 
             }
