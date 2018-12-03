@@ -47,7 +47,7 @@ public class OldNewCommand extends AppCompatActivity {
         });
 
         final Spinner spinner;
-        final String[] arrayForSpinner = {"Google, turn on my TV"};
+        final String[] arrayForSpinner = {"Alexa, turn on smart light"};
         spinner = (Spinner)findViewById(R.id.spinner);
         //ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, categories);
 
@@ -79,7 +79,7 @@ public class OldNewCommand extends AppCompatActivity {
         newCommand.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                newCommand.setText("Google, turn on my Apple TV");
+                newCommand.setText("Alexa, turn on my awesome light");
             }
         });
         ImageButton back = (ImageButton) findViewById(R.id.backbutton);
