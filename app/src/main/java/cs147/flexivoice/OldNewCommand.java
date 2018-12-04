@@ -40,7 +40,8 @@ public class OldNewCommand extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(getApplicationContext(), "New Command Created!", Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(OldNewCommand.this, HomePage.class);
+                Intent intent = new Intent(OldNewCommand.this, MyCommands.class);
+                intent.putExtra("CREATED", true);
                 startActivity(intent);
 
             }

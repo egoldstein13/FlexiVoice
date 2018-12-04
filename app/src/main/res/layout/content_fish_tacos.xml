@@ -22,7 +22,7 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="@+id/view2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.431"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.333" />
@@ -30,9 +30,9 @@
     <TextView
         android:id="@+id/size5"
         android:layout_width="326dp"
-        android:layout_height="97dp"
+        android:layout_height="110dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="92dp"
+        android:layout_marginTop="84dp"
         android:layout_marginEnd="8dp"
         android:background="#BCBEC0"
         android:fontFamily="@font/viga"
@@ -51,7 +51,7 @@
     <TextView
         android:id="@+id/textView29"
         android:layout_width="182dp"
-        android:layout_height="88dp"
+        android:layout_height="97dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
@@ -63,10 +63,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/size5"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.704"
+        app:layout_constraintHorizontal_bias="0.703"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/size2"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.938" />
 
 
     <TextView
@@ -111,9 +111,9 @@
 
     <TextView
         android:id="@+id/button11"
-        android:layout_width="314dp"
+        android:layout_width="313dp"
         android:layout_height="52dp"
-        android:layout_marginStart="33dp"
+        android:layout_marginStart="24dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:background="@color/colorPrimaryDark"
@@ -124,10 +124,10 @@
         android:textSize="22dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.267"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.648" />
+        app:layout_constraintVertical_bias="0.64" />
 
     <TextView
         android:id="@+id/textView30"
@@ -141,7 +141,7 @@
         android:fontFamily="@font/viga"
         android:paddingTop="10dp"
         android:paddingLeft="20dp"
-        android:text="YIELDS\t\t\t\tPREP TIME\t\t\t\tTOTAL TIME\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tmin\t\t\t\t\t\t\t\tmin"
+        android:text="YIELDS\t\t\t\tPREP TIME\t\t\t\tTOTAL TIME\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tmin\t\t\t\t\t\t\t\t\t\t\t\t\t\tmin"
         android:textColor="#ffffff"
         app:layout_constraintBottom_toTopOf="@+id/button11"
         app:layout_constraintEnd_toEndOf="parent"
@@ -155,7 +155,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:fontFamily="@font/viga"
-        android:text="4\t\t\t\t\t\t\t20\t\t\t\t\t\t\t35"
+        android:text="4\t\t\t\t\t\t\t\t\t\t\t\t20\t\t\t\t\t\t\t\t\t\t\t\t\t\t35"
         android:textColor="#ffffff"
         android:textSize="30dp"
         android:paddingLeft="20dp"
@@ -179,10 +179,10 @@
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintHorizontal_bias="0.789"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button10"
-        app:layout_constraintVertical_bias="0.878">
+        app:layout_constraintVertical_bias="1.0">
 
     </ImageView>
 

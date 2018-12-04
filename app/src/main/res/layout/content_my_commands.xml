@@ -9,9 +9,47 @@
     android:background="#ffffff"
     tools:showIn="@layout/activity_my_commands">
 
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="8dp"
+        android:text="Alexa, turn on smart light"
+        android:textColor="#000000"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toStartOf="@+id/size4"
+        app:layout_constraintTop_toTopOf="@+id/size4" />
+
+    <Button
+        android:id="@+id/size8"
+        android:layout_width="384dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/viga"
+        android:paddingBottom="30dp"
+        android:text="    Turn on My Awesome Light"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textSize="23sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.692" />
+
     <Button
         android:id="@+id/size4"
-        android:layout_width="384dp"
+        android:layout_width="389dp"
         android:layout_height="79dp"
         android:layout_marginTop="164dp"
         android:layout_marginEnd="8dp"
@@ -19,21 +57,21 @@
         android:background="@android:color/transparent"
         android:fontFamily="@font/viga"
         android:paddingBottom="30dp"
-        android:text='    Play "My Cool Playlist"'
+        android:text='   Play "My Cool Playlist"'
         android:textAlignment="viewStart"
         android:textAllCaps="false"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintHorizontal_bias="0.378"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/size2"
-        app:layout_constraintVertical_bias="0.003" />
+        app:layout_constraintVertical_bias="0.046" />
 
     <TextView
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
-        android:layout_height="17dp"
+        android:layout_height="20dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
@@ -42,10 +80,10 @@
         android:textColor="#000000"
         app:layout_constraintBottom_toTopOf="@+id/view4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintHorizontal_bias="0.181"
         app:layout_constraintStart_toStartOf="@+id/size4"
         app:layout_constraintTop_toTopOf="@+id/size4"
-        app:layout_constraintVertical_bias="0.9" />
+        app:layout_constraintVertical_bias="0.902" />
 
     <Button
         android:id="@+id/size3"
@@ -58,20 +96,20 @@
         android:background="@android:color/transparent"
         android:fontFamily="@font/viga"
         android:paddingBottom="30dp"
-        android:text='    Play "My Cool Playlist"'
+        android:text='   Play "My Cool Playlist"'
         android:textAlignment="viewStart"
         android:textAllCaps="false"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/size4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/size2" />
+        app:layout_constraintTop_toBottomOf="@+id/size2"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
-        android:layout_height="17dp"
+        android:layout_height="20dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
@@ -80,10 +118,10 @@
         android:textColor="#000000"
         app:layout_constraintBottom_toTopOf="@+id/size4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view"
-        app:layout_constraintVertical_bias="0.792" />
+        app:layout_constraintVertical_bias="0.84" />
 
     <View
         android:id="@+id/view3"
@@ -104,13 +142,13 @@
         android:background="@android:color/transparent"
         android:fontFamily="@font/viga"
         android:paddingBottom="30dp"
-        android:text="     Turn on Lights"
+        android:text="     Turn on TV"
         android:textAlignment="viewStart"
         android:textAllCaps="false"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="@+id/view"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintHorizontal_bias="0.718"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/size2" />
 
@@ -121,14 +159,14 @@
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Alexa, turn on Dyson Smart Lights"
+        android:text="Alexa, turn on Apple TV"
         android:textColor="#000000"
         app:layout_constraintBottom_toTopOf="@+id/view"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintHorizontal_bias="0.135"
         app:layout_constraintStart_toStartOf="@+id/size"
         app:layout_constraintTop_toBottomOf="@+id/size2"
-        app:layout_constraintVertical_bias="0.89" />
+        app:layout_constraintVertical_bias="0.9" />
 
     <View
         android:id="@+id/view2"
@@ -150,13 +188,14 @@
         android:layout_marginEnd="8dp"
         android:background="@android:color/transparent"
         android:fontFamily="@font/viga"
-        android:text="     Add New Command"
+        android:gravity="center"
+        android:text="  Add New Command"
         android:textAlignment="viewStart"
         android:textAllCaps="false"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="@+id/view2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
@@ -176,10 +215,21 @@
         style="@style/Divider"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view3"
+        app:layout_constraintVertical_bias="0.276" />
+
+    <View
+        android:id="@+id/view5"
+        style="@style/Divider"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view3"
-        app:layout_constraintVertical_bias="0.221" />
+        app:layout_constraintVertical_bias="0.561" />
 
     <ImageButton
         android:id="@+id/alexa1"
@@ -195,10 +245,10 @@
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.947"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.143" />
+        app:layout_constraintVertical_bias="0.17" />
 
     <ImageButton
         android:id="@+id/alexa2"
@@ -214,10 +264,10 @@
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.947"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.299" />
+        app:layout_constraintVertical_bias="0.323" />
 
     <ImageButton
         android:id="@+id/home"
@@ -233,9 +283,29 @@
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.947"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.448" />
+        app:layout_constraintVertical_bias="0.501" />
+
+    <ImageButton
+        android:id="@+id/alexa3"
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/alexa"
+        android:cropToPadding="false"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.712" />
 
 </android.support.constraint.ConstraintLayout>

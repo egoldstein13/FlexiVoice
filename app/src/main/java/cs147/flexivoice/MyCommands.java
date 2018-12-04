@@ -38,6 +38,18 @@ public class MyCommands extends AppCompatActivity {
             }
         });
 
+        final TextView tv1= (TextView) findViewById(R.id.textView32);
+        final Button b1= (Button) findViewById(R.id.size8);
+        final View v1= (View) findViewById(R.id.view5);
+        final ImageButton b2= (ImageButton) findViewById(R.id.alexa3);
+        boolean commandCreated= getIntent().getBooleanExtra("CREATED",false);
+        if(commandCreated){
+            tv1.setVisibility(View.VISIBLE);
+            b1.setVisibility(View.VISIBLE);
+            v1.setVisibility(View.VISIBLE);
+            b2.setVisibility(View.VISIBLE);
+        }
+
         Button save = (Button) findViewById(R.id.size2);
         save.setOnClickListener(new View.OnClickListener() {
             @Override

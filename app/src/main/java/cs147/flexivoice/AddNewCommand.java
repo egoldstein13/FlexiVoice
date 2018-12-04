@@ -10,6 +10,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.TextView;
 
 public class AddNewCommand extends AppCompatActivity {
     boolean isClicked1 = false;
@@ -82,6 +83,7 @@ public class AddNewCommand extends AppCompatActivity {
                 }
             }
         });
+
        /* final Button  button4= (Button) findViewById(R.id.button4);
 
         button4.setOnClickListener(new View.OnClickListener() {

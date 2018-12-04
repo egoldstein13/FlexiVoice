@@ -34,7 +34,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="56dp"
+        android:layout_marginEnd="24dp"
         android:layout_marginBottom="8dp"
         android:fontFamily="@font/viga"
         android:text="Den Google Home"
@@ -98,8 +98,8 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="121dp"
-        android:layout_height="24dp"
+        android:layout_width="151dp"
+        android:layout_height="21dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
@@ -109,7 +109,7 @@
         android:textColor="#ffffff"
         app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintEnd_toStartOf="@+id/textView2"
-        app:layout_constraintHorizontal_bias="0.405"
+        app:layout_constraintHorizontal_bias="0.771"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button"
         app:layout_constraintVertical_bias="0.0" />
@@ -202,7 +202,7 @@
         android:paddingTop="10dp"
         android:paddingRight="10dp"
         android:paddingBottom="10dp"
-        android:text="Fri 10/26\t\t\t\tRachel J.\t\t\tShared Living Room Alexa\nWed 10/24\t\t\tRachel L.\t\t\tShared All Commands\nWed 10/24\t\t\tBenjamin J.\t\tShared Den Google Home\nSun 10/21\t\t\tEsther G.\t\t\tShared Living Room Alexa"
+        android:text="Fri 10/26\t\t\t\t\tRachel J.\t\t\t\tShared Living Room Alexa\nWed 10/24\t\t\tRachel L.\t\t\t\tShared All Commands\nWed 10/24\t\t\tBenjamin J.\t\tShared Den Google Home\nSun 10/21\t\t\t\tEsther G.\t\t\t\tShared Living Room Alexa"
         android:textColor="#000000"
         android:textSize="11dp"
         app:layout_constraintBottom_toBottomOf="parent"

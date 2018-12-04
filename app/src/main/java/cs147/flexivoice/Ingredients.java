@@ -28,16 +28,16 @@ public class Ingredients extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
-        Button recipesMade = (Button) findViewById(R.id.button11);
-        recipesMade.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                Intent intent = new Intent(Ingredients.this, HomePage.class);
-                startActivity(intent);
-
-            }
-        });
+//        Button recipesMade = (Button) findViewById(R.id.button11);
+//        recipesMade.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//
+//                Intent intent = new Intent(Ingredients.this, HomePage.class);
+//                startActivity(intent);
+//
+//            }
+//        });
         ImageButton back = (ImageButton) findViewById(R.id.backbutton);
         back.setOnClickListener(new View.OnClickListener() {
             @Override
